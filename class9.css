@@ -1,0 +1,110 @@
+#header{
+    background-color: black;
+    color: rgb(152, 245, 12);
+    padding-left: 25px;
+    font-family:;
+    padding-top: 25px;
+    height: 750px;
+    padding-right: 25px;
+}
+
+#row{
+    display: flex;
+    height: 180px;
+    width: 100%;
+    background-color: black;
+}
+
+#col2{
+    border: 20px;
+    text-align: left;
+    border-width: 2px;
+    text-decoration: none;
+    border: 2px solid white;
+    float: right;
+    height: 180px;
+    color: white;
+    width: 28%;  
+    border-radius: 10px;  
+    padding-left: 10px;
+    padding-left: 10px;
+    margin-right: 20px;
+}
+
+#col1{
+    height: 120px ;
+    width: 72%;
+}
+
+.list{
+    text-decoration: none;
+}
+
+.list a{
+    color: white;
+    text-decoration: none;
+}
+
+a{
+    /* text-decoration: none; */
+    color: white;
+}
+
+#footer{
+    border: 10px solid white;
+    width: 97%;
+    height: 130px;
+    color: white;
+    border-width: 2px;
+    font-size: small;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.row15{
+    background-color: rgb(14, 13, 13);
+    width: 100%;
+    height: 165px;
+    display: flex;
+    margin-top: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.row15a{
+    background-color: rgb(59, 4, 75);
+    height: 80px;
+    width: 20%;
+    margin-top: 20px;
+}
+.row15a img{
+    height: 40px;
+    width: 50%;
+    object-fit: contain;
+}
+.row15b{
+    background-color: rgb(51, 28, 28);
+    height: 80px;
+    width: 35%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.row15b p{
+    /* font-family:  Roboto,-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Arial,sans-serif; */
+    margin-top: 0px;
+}
+/* .r15b{
+    display: flex;
+    height: 30px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.row15c{
+    background-color: rgb(151, 5, 5);
+    height: 100px;
+    width: 20%;
+    margin-left: 83px;
+    margin-top: 20px;
+}

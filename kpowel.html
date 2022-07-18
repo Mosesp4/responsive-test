@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* box-sizing: border-box; */
+    /* font-family: "Times New Roman", Georgia, Serif; */
+}
+
+        .parent{
+            width: 100%;
+            background-color: rgb(5, 25, 78);
+            padding: 3em;
+            m;
+
+        }
+        h1{
+            margin-bottom: 1em;
+        }
+        h1,
+        h2,
+        p {
+            color: white;
+            font-size: large;
+            font-family: Verdana, sans-serif;
+            font-size: 15px;
+            line-height: 1.5;
+             
+        }
+        header{
+            width: 100%;
+            height: 4rem;
+            background-color: goldenrod;
+            padding: 1rem;
+            display: flex;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            /* position: fixed;
+            z-index: 100; */
+            
+        }
+        .nav-content{
+            display: flex;
+            /* flex-direction: row-reverse; */
+            margin-left: auto;
+            width: auto;
+            letter-spacing: 4px;
+            
+            /*  */
+
+            padding: 2rem, 2rem;
+            margin-right: 3rem;
+            font-weight: lighter;
+        }
+        .nav-content :hover{
+            background-color: rgb(97, 2, 2);
+            height: 1.85rem;
+        }
+        @media screen and (max-width:400px){
+           .nav-content{
+               display: none;
+           }
+
+        }
+        .nav-content h2{
+            margin-left: 1rem;
+            /* background-color: black; */
+        }
+        .navcontent{
+            color: brown;
+        }
+        .row{
+            width: 70%;
+            height: 30rem;
+            /* background-color: blueviolet; */
+            margin: auto;
+            display: flex;
+            position: relative;
+            margin-top: 2rem;
+        }
+        .row1{
+            width: 60%;
+            height: auto;
+            /* background-color: aqua; */
+        }
+        .row1 img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .row2{
+            width: 40%;
+            height: auto;
+            background-color: rgb(3, 66, 66);
+            margin-left: 1rem;
+            text-align: center;
+            max-width: 500px;
+        }
+        .row2 h1{
+            font-size: 2rem;
+            padding: 1rem;
+            font-size: clamp (3rem, 1rem + 7vpw, 7rem);
+        }
+        .row2 p{
+            padding: 1rem;
+        }
+        .row4{
+            height: auto;
+            width: 70%;
+            /* background-color: rgb(12, 7, 2); */
+            margin: auto;
+            margin-bottom: 4rem;
+            
+        }
+        .r4content{
+            font-family: "Times New Roman", Georgia, Serif ;
+            letter-spacing: normal;
+            margin-top: 2rem;
+        }
+        .r4content p{
+            color: black;
+        }
+        .r4content h2{
+            margin-top: 18px;
+            color: rgb(54, 54, 141);
+            font-size: large;
+        }
+        .r3title h1{
+            font-size: 2rem;
+            color: rgb(5, 5, 44);
+        }
+        hr{
+            margin: auto;
+            width: 70%;
+            margin-top: 3rem;
+            margin-bottom: 3rem;
+        }
+
+        input{
+            height: 50px;
+            width: 100%;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom-color: lightgrey;
+    
+        }
+        button{
+            width: auto;
+            height: 3em;
+            font-weight: bold;
+            border: none;
+            padding: 1rem;
+            background-color: red;
+            color: white;
+        }
+        
+        @media screen and (max-width:600px){
+            .row{
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+                margin: 0;
+            }
+            .row1{
+                width: 100%;
+            }
+            .row2{
+                width: 100%;
+                margin: 0;
+            }
+            .nav-content{
+                overflow: hidden;
+            }
+        }
+        @media screen and (max-width: 300px){
+            .row1{
+                display: none;
+            }
+            .row2{
+             width: 100%;
+             margin: 0;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navcontent">
+            <h2>Gourmet au Catering</h2>
+        </div>
+        <div class="nav-content">
+            <h2>About</h2>
+            <h2>Menu</h2>
+            <h2>contact</h2>
+        </div>
+    </header>
+        <div class="row">
+            <div class="row1">
+                <img src="img3.jpg" alt="">
+            </div>
+            <div class="row2">
+             <h1>Mental Illness</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sapiente, repudiandae nisi quaerat incidunt fuga corrupti modi repellat cumque. Optio quidem impedit eveniet error laboriosam esse accusamus ullam debitis! Officiis!</p>
+            </div>
+        </div><br><br>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde perferendis nesciunt facere qui, assumenda neque, nobis quo quidem tempore autem sequi? Perspiciatis voluptate magni placeat aperiam officiis, sint est quas.
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi perspiciatis, quibusdam dicta quo laboriosam aliquid harum repellat, eveniet repellendus autem voluptas tempora reiciendis quae pariatur vel consectetur molestias sit esse?
+                </p>
+            </div>
+
+        <hr><br><br>
+        <div class="row">
+            <div class="row1">
+                <img src="img4.png" alt="">
+            </div>
+            <div class="row2">
+             <h1>Care and Rehab</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sapiente, repudiandae nisi quaerat incidunt fuga corrupti modi repellat cumque. Optio quidem impedit eveniet error laboriosam esse accusamus ullam debitis! Officiis!</p>
+            </div>
+        </div><br><br>
+
+        <hr>
+
+        <div id="contact" class="row4">
+            <div class="r3title">
+                <h1>Contact</h1>
+            </div>
+            <div class="r4content">
+                <p>We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste. Do not hesitate to contact us.</p>
+            <h2>Catering Service, 42nd Living St, 43043 New York, NY</h2><br>
+            <p>You can also contact us by phone 00553123-2323 or email catering@catering.com, or you can send us a message here:</p>
+            </div><br>
+
+            <div id="form">  
+                <input type="text" placeholder="Name"><br><br>
+                <input type="number" name="People" id=""><br><br>
+                 <input type="datetime-local" name="" id=""><br><br>
+                <input type="text" name="" placeholder="Message / Special requirement"><br><br>
+
+                <button type="submit" placeholder="Send Message">SEND MESSAGE</button>
+            </div>
+        </div>
+        </div>
+
+
+    <div class="parent">
+        <h1>Welcome To My Responsive Web Page</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem corrupti dolor vero eligendi soluta animi. Similique est, ducimus doloribus aperiam laboriosam perspiciatis nesciunt sit reiciendis accusamus quisquam id esse suscipit!</p>
+    </div>
+</body>
+</html>
